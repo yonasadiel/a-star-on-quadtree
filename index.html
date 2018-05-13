@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A* on Quadtree</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="canvas"></div>
+    <div id="canvas2"></div>
+  </div>
+  <div class="container">
+    <button type="button" class="active" id="start" onclick="changeStateTo('start')">Start Node</button>
+    <button type="button" id="end" onclick="changeStateTo('end')">End Node</button>
+    <button type="button" id="add" onclick="changeStateTo('add')">Add Rectangle</button>
+    <button type="button" id="sub" onclick="changeStateTo('sub')">Substract Rectangle</button>
+    <button type="button" id="sub" onclick="astar()">Show Path</button>
+    <span id="error" class="error"></span>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="prioqueue.js"></script>
+<script src="script.js"></script>
+</html>
