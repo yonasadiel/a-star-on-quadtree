@@ -2,4 +2,4 @@
 
 A* algorithm on quadtree
 
-[Demo](yonasadiel.github.io/a-star-on-quadtree)
+[Demo](//yonasadiel.github.io/a-star-on-quadtree)
